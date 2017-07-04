@@ -1,4 +1,8 @@
 (function() {
+
+  $('#clouds').pan({fps: 30, speed: 0.5, dir: 'right'});
+
+  
   // Set the date we're counting down to
   var countDownDate = new Date("Sep 12, 2017 11:00:00").getTime();
   // Update the count down every 1 second
